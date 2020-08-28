@@ -3,6 +3,11 @@ variable "aws_region" {
   default = "us-west-1"
 }
 
+variable "tag_user_name" {
+  type    = string
+  default = "raveendran"
+}
+
 variable "db_table_name" {
   type    = string
   default = "terraform-learn"
